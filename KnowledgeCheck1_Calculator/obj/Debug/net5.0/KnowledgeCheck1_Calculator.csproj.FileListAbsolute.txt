@@ -1,0 +1,15 @@
+C:\Users\Melody\OneDrive\Documents\Code KY\Projects\Software1-Knowledge-Check-1\KnowledgeCheck1_Calculator\bin\Debug\net5.0\KnowledgeCheck1_Calculator.exe
+C:\Users\Melody\OneDrive\Documents\Code KY\Projects\Software1-Knowledge-Check-1\KnowledgeCheck1_Calculator\bin\Debug\net5.0\KnowledgeCheck1_Calculator.deps.json
+C:\Users\Melody\OneDrive\Documents\Code KY\Projects\Software1-Knowledge-Check-1\KnowledgeCheck1_Calculator\bin\Debug\net5.0\KnowledgeCheck1_Calculator.runtimeconfig.json
+C:\Users\Melody\OneDrive\Documents\Code KY\Projects\Software1-Knowledge-Check-1\KnowledgeCheck1_Calculator\bin\Debug\net5.0\KnowledgeCheck1_Calculator.runtimeconfig.dev.json
+C:\Users\Melody\OneDrive\Documents\Code KY\Projects\Software1-Knowledge-Check-1\KnowledgeCheck1_Calculator\bin\Debug\net5.0\KnowledgeCheck1_Calculator.dll
+C:\Users\Melody\OneDrive\Documents\Code KY\Projects\Software1-Knowledge-Check-1\KnowledgeCheck1_Calculator\bin\Debug\net5.0\KnowledgeCheck1_Calculator.pdb
+C:\Users\Melody\OneDrive\Documents\Code KY\Projects\Software1-Knowledge-Check-1\KnowledgeCheck1_Calculator\obj\Debug\net5.0\KnowledgeCheck1_Calculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Melody\OneDrive\Documents\Code KY\Projects\Software1-Knowledge-Check-1\KnowledgeCheck1_Calculator\obj\Debug\net5.0\KnowledgeCheck1_Calculator.AssemblyInfoInputs.cache
+C:\Users\Melody\OneDrive\Documents\Code KY\Projects\Software1-Knowledge-Check-1\KnowledgeCheck1_Calculator\obj\Debug\net5.0\KnowledgeCheck1_Calculator.AssemblyInfo.cs
+C:\Users\Melody\OneDrive\Documents\Code KY\Projects\Software1-Knowledge-Check-1\KnowledgeCheck1_Calculator\obj\Debug\net5.0\KnowledgeCheck1_Calculator.csproj.CoreCompileInputs.cache
+C:\Users\Melody\OneDrive\Documents\Code KY\Projects\Software1-Knowledge-Check-1\KnowledgeCheck1_Calculator\obj\Debug\net5.0\KnowledgeCheck1_Calculator.dll
+C:\Users\Melody\OneDrive\Documents\Code KY\Projects\Software1-Knowledge-Check-1\KnowledgeCheck1_Calculator\obj\Debug\net5.0\refint\KnowledgeCheck1_Calculator.dll
+C:\Users\Melody\OneDrive\Documents\Code KY\Projects\Software1-Knowledge-Check-1\KnowledgeCheck1_Calculator\obj\Debug\net5.0\KnowledgeCheck1_Calculator.pdb
+C:\Users\Melody\OneDrive\Documents\Code KY\Projects\Software1-Knowledge-Check-1\KnowledgeCheck1_Calculator\obj\Debug\net5.0\KnowledgeCheck1_Calculator.genruntimeconfig.cache
+C:\Users\Melody\OneDrive\Documents\Code KY\Projects\Software1-Knowledge-Check-1\KnowledgeCheck1_Calculator\obj\Debug\net5.0\ref\KnowledgeCheck1_Calculator.dll

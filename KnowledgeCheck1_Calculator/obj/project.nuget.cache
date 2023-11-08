@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ggFdwnV2o2y4C4lISI3Kj12INLRodLsNjIwHNV6lyo+IvGCBhFjyocGk+WG9k2g40WOY+OVcp7E5IW6CcM86RA==",
+  "dgSpecHash": "qp6iCaKwB2GvkQBxSj8/HZ711LOAKuq34HIyN/SLhv3tqa9OzRATw3Hyy5FtWHe3nq8NCIPkaNsNOHv240Majw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Melody\\OneDrive\\Documents\\Code KY\\Projects\\Software1-Knowledge-Check-1\\KnowledgeCheck1_Calculator\\KnowledgeCheck1_Calculator.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Melody\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\Melody\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\Melody\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\Melody\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

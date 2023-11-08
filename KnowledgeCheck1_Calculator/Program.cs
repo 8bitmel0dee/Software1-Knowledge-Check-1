@@ -13,9 +13,13 @@ namespace KnowledgeCheck1_Calculator
 
             Console.WriteLine("Hello. Press 1 for addition, 2 for subtraction, 3 for multiplication, and 4 for division");
 
+            Console.WriteLine();
+
             var input = Console.ReadLine();
 
             var calculator = new Calculator();
+
+            Console.WriteLine();    
 
             // Moved the code that asks for two numbers and parses them into a seperate method -> InputTwoNumbers()
 
@@ -23,9 +27,13 @@ namespace KnowledgeCheck1_Calculator
             {
                 case "1":
 
-                    Console.WriteLine("Press 1 for addition");
+                    Console.WriteLine("You have selected addition.");
+
+                    Console.WriteLine();    
 
                     var (addNumOne, addNumTwo) = InputTwoNumbers();
+
+                    
 
                     Console.Write($"{addNumOne} + {addNumTwo} = ");
 
@@ -35,7 +43,9 @@ namespace KnowledgeCheck1_Calculator
 
                 case "2":
 
-                    Console.WriteLine("Press 2 for subtraction");
+                    Console.WriteLine("You have selected subtraction.");
+
+                    Console.WriteLine();
 
                     var (subNumOne, subNumTwo) = InputTwoNumbers();
 
@@ -47,7 +57,9 @@ namespace KnowledgeCheck1_Calculator
 
                 case "3":
 
-                    Console.WriteLine("Press 3 for multiplication");
+                    Console.WriteLine("You have selected multiplication.");
+
+                    Console.WriteLine();
 
                     var (multiplyNumOne, multiplyNumTwo) = InputTwoNumbers();
 
@@ -59,7 +71,9 @@ namespace KnowledgeCheck1_Calculator
 
                 case "4":
 
-                    Console.WriteLine("Press 4 for division");
+                    Console.WriteLine("You have selected division.");
+
+                    Console.WriteLine();
 
                     var (divideNumOne, divideNumTwo) = InputTwoNumbers();
 
@@ -82,9 +96,16 @@ namespace KnowledgeCheck1_Calculator
 
             static (int, int) InputTwoNumbers()
             {
-                Console.WriteLine("Enter two numbers");
+                Console.WriteLine("Enter the first number: ");
+
+                Console.WriteLine();
 
                 var number1 = Console.ReadLine();
+
+
+                Console.WriteLine("Enter the second number: ");
+
+                Console.WriteLine();
 
                 var number2 = Console.ReadLine();
 

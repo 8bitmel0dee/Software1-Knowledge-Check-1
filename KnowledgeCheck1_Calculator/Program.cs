@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace KnowledgeCheck1_Calculator
 {
     class Program
@@ -19,9 +20,10 @@ namespace KnowledgeCheck1_Calculator
 
             var calculator = new Calculator();
 
-            Console.WriteLine();    
+            Console.WriteLine();
 
             // Moved the code that asks for two numbers and parses them into a seperate method -> InputTwoNumbers()
+            // Placed InputTwoNumbers() into its own class named Logic
 
             switch (input)
             {
@@ -29,11 +31,11 @@ namespace KnowledgeCheck1_Calculator
 
                     Console.WriteLine("You have selected addition.");
 
-                    Console.WriteLine();    
+                    Console.WriteLine();
 
-                    var (addNumOne, addNumTwo) = InputTwoNumbers();
+                    var (addNumOne, addNumTwo) = Logic.InputTwoNumbers();
 
-                    
+
 
                     Console.Write($"{addNumOne} + {addNumTwo} = ");
 
@@ -47,7 +49,7 @@ namespace KnowledgeCheck1_Calculator
 
                     Console.WriteLine();
 
-                    var (subNumOne, subNumTwo) = InputTwoNumbers();
+                    var (subNumOne, subNumTwo) = Logic.InputTwoNumbers();
 
                     Console.Write($"{subNumOne} - {subNumTwo} = ");
 
@@ -61,7 +63,7 @@ namespace KnowledgeCheck1_Calculator
 
                     Console.WriteLine();
 
-                    var (multiplyNumOne, multiplyNumTwo) = InputTwoNumbers();
+                    var (multiplyNumOne, multiplyNumTwo) = Logic.InputTwoNumbers();
 
                     Console.Write($"{multiplyNumOne} * {multiplyNumTwo} = ");
 
@@ -75,7 +77,7 @@ namespace KnowledgeCheck1_Calculator
 
                     Console.WriteLine();
 
-                    var (divideNumOne, divideNumTwo) = InputTwoNumbers();
+                    var (divideNumOne, divideNumTwo) = Logic.InputTwoNumbers();
 
                     Console.Write($"{divideNumOne} / {divideNumTwo} = ");
 
@@ -89,36 +91,6 @@ namespace KnowledgeCheck1_Calculator
                     Console.WriteLine("Unknown input");
 
                     break;
-            }
-
-
-            /* new method - InputTwoNumbers() */
-
-            static (int, int) InputTwoNumbers()
-            {
-                Console.WriteLine("Enter the first number: ");
-
-                Console.WriteLine();
-
-                var number1 = Console.ReadLine();
-
-
-                Console.WriteLine("Enter the second number: ");
-
-                Console.WriteLine();
-
-                var number2 = Console.ReadLine();
-
-                if (int.TryParse(number1, out int numOne) && int.TryParse(number2, out int numTwo))
-                {
-                    return (numOne, numTwo);
-                }
-                else
-                {
-                    Console.WriteLine("Incorrect input, numbers only.");
-                    return (0, 0);
-                }
-
             }
         }
     }
